@@ -1,0 +1,54 @@
+<theme>
+    <colorScheme name="dark">
+        <variables>
+            <colorSchemeName>dark</colorSchemeName>
+            <backgroundColor>323232</backgroundColor>
+            <mainColor>FFFFFF</mainColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="light">
+        <variables>
+            <colorSchemeName>light</colorSchemeName>
+            <backgroundColor>6e706d</backgroundColor>
+            <mainColor>000000</mainColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="classy">
+        <variables>
+            <colorSchemeName>classy</colorSchemeName>
+            <backgroundColor>561420</backgroundColor>
+            <mainColor>c59a6f</mainColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="blue">
+        <variables>
+            <colorSchemeName>blue</colorSchemeName>
+            <backgroundColor>1b20b7</backgroundColor>
+            <mainColor>9fac9b</mainColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="gameboy">
+        <variables>
+            <colorSchemeName>gameboy</colorSchemeName>
+            <backgroundColor>75a883</backgroundColor>
+            <mainColor>3e4943</mainColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="red">
+        <variables>
+            <colorSchemeName>red</colorSchemeName>
+            <backgroundColor>591516</backgroundColor>
+            <mainColor>Fb0102</mainColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="yellow">
+        <variables>
+            <colorSchemeName>yellow</colorSchemeName>
+            <backgroundColor>111111</backgroundColor>
+            <mainColor>FEC20C</mainColor>
+        </variables>
+    </colorScheme>
+</theme>
