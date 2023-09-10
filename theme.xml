@@ -8,7 +8,6 @@
     <include>./system/metadata/${system.theme}.xml</include>
 
     <variables>
-        <mainFont>./assets/fonts/24.ttf</mainFont>
         <syslogo>./system/logos/system-logo-white/${system.theme}.svg</syslogo>
         <syslogocustom>./system/custom/logo/${system.theme}.svg</syslogocustom>
         <syslogocolor>./system/logos/system-logo-color/${system.theme}.svg</syslogocolor>
@@ -43,7 +42,7 @@
             <helpsystem name="help">
                 <pos>0.5 0.975</pos>
                 <origin>0.5 0.5</origin>
-                <fontSize>0.02</fontSize>
+                <fontSize>${fontSize}</fontSize>
                 <textColor>${mainColor}</textColor>
                 <textColorDimmed>${mainColor}</textColorDimmed>
                 <iconColor>${mainColor}</iconColor>
@@ -69,7 +68,7 @@
                 <rotation>90</rotation>
                 <text>System Select</text>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.06</fontSize>
+                <fontSize>${fontSize4}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
@@ -81,7 +80,7 @@
                 <rotation>90</rotation>
                 <systemdata>gamecountGames</systemdata>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${fontSize1}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
@@ -134,7 +133,7 @@
                 <textSelectedColor>${backgroundColor}</textSelectedColor>
                 <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${fontSize1}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>50</zIndex>
@@ -176,7 +175,7 @@
                 <textColor>${mainColor}</textColor>
                 <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${fontSize1}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>50</zIndex>
@@ -195,7 +194,7 @@
                 <size>0.4 0.06</size>
                 <origin>0.5 0</origin>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.04</fontSize>
+                <fontSize>${fontSize2}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <lineSpacing>1</lineSpacing>
                 <color>${mainColor}</color>
@@ -217,7 +216,7 @@
                 <size>0.85 0.17</size>
                 <origin>0 0</origin>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${fontSize1}</fontSize>
                 <container>true</container>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${mainColor}</color>
@@ -230,7 +229,7 @@
                 <size>0.1 0.08</size>
                 <origin>0 0</origin>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.035</fontSize>
+                <fontSize>${fontSize2}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <text>${systemReleaseYear}</text>
@@ -259,7 +258,7 @@
                 <textSelectedColor>${backgroundColor}</textSelectedColor>
                 <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${fontSize2}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>29</zIndex>
@@ -286,7 +285,7 @@
                 <origin>0 0</origin>
                 <rotation>90</rotation>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.045</fontSize>
+                <fontSize>${fontSize2}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>uppercase</letterCase>
@@ -309,7 +308,7 @@
                 <origin>0 0</origin>
                 <rotation>90</rotation>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${fontSize3}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>uppercase</letterCase>
@@ -347,7 +346,7 @@
                 <textSelectedColor>${backgroundColor}</textSelectedColor>
                 <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${fontSize3}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>29</zIndex>
@@ -393,10 +392,12 @@
                 <zIndex>7</zIndex>
             </image>
             <video name="backgroundimage1">
-                <pos>.63 0.029</pos>
+                <pos>.66 0.1</pos>
                 <origin>0 0</origin>
-                <cropSize>0.31 0.59</cropSize>
+                <maxSize>0.27 0.4</maxSize>
                 <imageType>screenshot</imageType>
+                <pillarboxes>true</pillarboxes>
+                <pillarboxThreshold>0.85 0.95</pillarboxThreshold>
                 <zIndex>5</zIndex>
             </video>
             <text name="systemName, autoCollectionName, customCollectionName">
@@ -405,7 +406,7 @@
                 <origin>0 0</origin>
                 <rotation>90</rotation>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.045</fontSize>
+                <fontSize>${fontSize3}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>uppercase</letterCase>
@@ -428,7 +429,7 @@
                 <origin>0 0</origin>
                 <rotation>90</rotation>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${fontSize3}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>uppercase</letterCase>
@@ -440,7 +441,7 @@
                 <metadata>name</metadata>
                 <systemNameSuffix>false</systemNameSuffix>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.04</fontSize>
+                <fontSize>${fontSize2}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
@@ -459,7 +460,7 @@
                 <origin>0 0</origin>
                 <text>Released:</text>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.025</fontSize>
+                <fontSize>${fontSize1}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
@@ -472,7 +473,7 @@
                 <metadata>releasedate</metadata>
                 <format>%Y</format>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.025</fontSize>
+                <fontSize>${fontSize1}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
@@ -483,15 +484,15 @@
                 <origin>0 0</origin>
                 <metadata>description</metadata>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>0.03</fontSize>
+                <fontSize>${fontSize1}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
                 <lineSpacing>1.1</lineSpacing>
             </text>
             <badges name="badges">
-                <pos>0.645 0.5925</pos>
-                <size>0.19 0.023</size>
+                <pos>0.645 0.515</pos>
+                <size>0.26 0.15</size>
                 <origin>0 0</origin>
                 <direction>row</direction>
                 <lines>1</lines>

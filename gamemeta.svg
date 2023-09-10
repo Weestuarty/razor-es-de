@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.89146868"
-     inkscape:cx="438.60206"
-     inkscape:cy="953.48274"
+     inkscape:zoom="14.263499"
+     inkscape:cx="823.29028"
+     inkscape:cy="897.53574"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -105,6 +105,11 @@
        transform="matrix(-0.18763562,0.98223871,-0.40792677,-0.91301465,0,0)"
        d="m -202.66823,-478.52618 2.85643,-1.4636 7.24197,23.82409 -2.58304,0.70123 z"
        sodipodi:nodetypes="ccccc" />
+    <path
+       id="rect843-1-9-3"
+       style="fill:#ffffff;stroke-width:0.967993;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 224.97595,243.65271 -2.33181,0.0236 -10.21862,-12.20213 0.0633,-3.12801 z"
+       sodipodi:nodetypes="ccccc" />
     <rect
        style="fill:#ffffff;stroke-width:0.830361;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
        id="rect843-0-6"
@@ -165,6 +170,14 @@
        height="168.92493"
        x="-268.12097"
        y="-189.49387"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.921884;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect843-0-2-5-3"
+       width="3.050823"
+       height="179.27852"
+       x="-231.46527"
+       y="-212.48906"
        transform="matrix(0,-1,-1,0,0,0)" />
   </g>
 </svg>
