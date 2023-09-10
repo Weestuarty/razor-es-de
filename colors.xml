@@ -32,8 +32,12 @@
             <colorSchemeName>classy</colorSchemeName>
             <backgroundColor>561420</backgroundColor>
             <mainColor>c59a6f</mainColor>
-            
             <mainFont>./assets/fonts/unispace.otf</mainFont>
+            <fontSize>0.02</fontSize>
+            <fontSize1>0.0225</fontSize1>
+            <fontSize2>0.033</fontSize2>
+            <fontSize3>0.03</fontSize3>
+            <fontSize4>0.06</fontSize4>
         </variables>
     </colorScheme>
     <colorScheme name="blue">
@@ -41,8 +45,12 @@
             <colorSchemeName>blue</colorSchemeName>
             <backgroundColor>1b20b7</backgroundColor>
             <mainColor>9fac9b</mainColor>
-            
             <mainFont>./assets/fonts/unispace.otf</mainFont>
+            <fontSize>0.02</fontSize>
+            <fontSize1>0.0225</fontSize1>
+            <fontSize2>0.033</fontSize2>
+            <fontSize3>0.03</fontSize3>
+            <fontSize4>0.06</fontSize4>
         </variables>
     </colorScheme>
     <colorScheme name="gameboy">
@@ -50,8 +58,12 @@
             <colorSchemeName>gameboy</colorSchemeName>
             <backgroundColor>75a883</backgroundColor>
             <mainColor>3e4943</mainColor>
-            
-            <mainFont>./assets/fonts/unispace.otf</mainFont>
+            <mainFont>./assets/fonts/24.ttf</mainFont>
+            <fontSize>0.02</fontSize>
+            <fontSize1>0.0275</fontSize1>
+            <fontSize2>0.045</fontSize2>
+            <fontSize3>0.04</fontSize3>
+            <fontSize4>0.06</fontSize4>
         </variables>
     </colorScheme>
 
@@ -60,8 +72,12 @@
             <colorSchemeName>red</colorSchemeName>
             <backgroundColor>591516</backgroundColor>
             <mainColor>Fb0102</mainColor>
-            
-            <mainFont>./assets/fonts/unispace.otf</mainFont>
+            <mainFont>./assets/fonts/24.ttf</mainFont>
+            <fontSize>0.02</fontSize>
+            <fontSize1>0.0275</fontSize1>
+            <fontSize2>0.045</fontSize2>
+            <fontSize3>0.04</fontSize3>
+            <fontSize4>0.06</fontSize4>
         </variables>
     </colorScheme>
 
@@ -70,8 +86,12 @@
             <colorSchemeName>yellow</colorSchemeName>
             <backgroundColor>111111</backgroundColor>
             <mainColor>FEC20C</mainColor>
-            
-            <mainFont>./assets/fonts/unispace.otf</mainFont>
+            <mainFont>./assets/fonts/24.ttf</mainFont>
+            <fontSize>0.02</fontSize>
+            <fontSize1>0.0275</fontSize1>
+            <fontSize2>0.045</fontSize2>
+            <fontSize3>0.04</fontSize3>
+            <fontSize4>0.06</fontSize4>
         </variables>
     </colorScheme>
 </theme>
