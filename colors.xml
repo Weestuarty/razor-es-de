@@ -4,12 +4,12 @@
             <colorSchemeName>dark</colorSchemeName>
             <backgroundColor>323232</backgroundColor>
             <mainColor>FFFFFF</mainColor>
-            <mainFont>./assets/fonts/24.ttf</mainFont>
-            <fontSize>0.02</fontSize>
+            <mainFont>./assets/fonts/gb.ttf</mainFont>
+            <fontSize>0.025</fontSize>
             <fontSize1>0.0275</fontSize1>
             <fontSize2>0.045</fontSize2>
             <fontSize3>0.04</fontSize3>
-            <fontSize4>0.06</fontSize4>
+            <fontSize4>0.05</fontSize4>
         </variables>
     </colorScheme>
 
@@ -31,12 +31,12 @@
             <colorSchemeName>classy</colorSchemeName>
             <backgroundColor>561420</backgroundColor>
             <mainColor>c59a6f</mainColor>
-            <mainFont>./assets/fonts/unispace.otf</mainFont>
-            <fontSize>0.02</fontSize>
-            <fontSize1>0.0225</fontSize1>
-            <fontSize2>0.033</fontSize2>
-            <fontSize3>0.03</fontSize3>
-            <fontSize4>0.06</fontSize4>
+            <mainFont>./assets/fonts/gb.ttf</mainFont>
+            <fontSize>0.025</fontSize>
+            <fontSize1>0.0275</fontSize1>
+            <fontSize2>0.045</fontSize2>
+            <fontSize3>0.04</fontSize3>
+            <fontSize4>0.05</fontSize4>
         </variables>
     </colorScheme>
     <colorScheme name="blue">
@@ -44,12 +44,12 @@
             <colorSchemeName>blue</colorSchemeName>
             <backgroundColor>1b20b7</backgroundColor>
             <mainColor>9fac9b</mainColor>
-            <mainFont>./assets/fonts/unispace.otf</mainFont>
-            <fontSize>0.02</fontSize>
-            <fontSize1>0.0225</fontSize1>
-            <fontSize2>0.033</fontSize2>
-            <fontSize3>0.03</fontSize3>
-            <fontSize4>0.06</fontSize4>
+            <mainFont>./assets/fonts/gb.ttf</mainFont>
+            <fontSize>0.025</fontSize>
+            <fontSize1>0.0275</fontSize1>
+            <fontSize2>0.045</fontSize2>
+            <fontSize3>0.04</fontSize3>
+            <fontSize4>0.05</fontSize4>
         </variables>
     </colorScheme>
     <colorScheme name="gameboy">
@@ -65,21 +65,6 @@
             <fontSize4>0.05</fontSize4>
         </variables>
     </colorScheme>
-
-    <colorScheme name="red">
-        <variables>
-            <colorSchemeName>red</colorSchemeName>
-            <backgroundColor>591516</backgroundColor>
-            <mainColor>Fb0102</mainColor>
-            <mainFont>./assets/fonts/24.ttf</mainFont>
-            <fontSize>0.02</fontSize>
-            <fontSize1>0.0275</fontSize1>
-            <fontSize2>0.045</fontSize2>
-            <fontSize3>0.04</fontSize3>
-            <fontSize4>0.06</fontSize4>
-        </variables>
-    </colorScheme>
-
     <colorScheme name="yellow">
         <variables>
             <colorSchemeName>yellow</colorSchemeName>
@@ -92,5 +77,85 @@
             <fontSize3>0.04</fontSize3>
             <fontSize4>0.05</fontSize4>
         </variables>
+    </colorScheme>
+        <colorScheme name="dark2">
+            <variables>
+                <colorSchemeName>dark2</colorSchemeName>
+                <backgroundColor>323232</backgroundColor>
+                <mainColor>FFFFFF</mainColor>
+                <mainFont>./assets/fonts/unispace.otf</mainFont>
+                <fontSize>0.02</fontSize>
+                <fontSize1>0.0225</fontSize1>
+                <fontSize2>0.033</fontSize2>
+                <fontSize3>0.03</fontSize3>
+                <fontSize4>0.06</fontSize4>
+            </variables>
+        </colorScheme>
+    
+        <colorScheme name="watch2">
+            <variables>
+                <colorSchemeName>watch2</colorSchemeName>
+                <backgroundColor>6e706d</backgroundColor>
+                <mainColor>000000</mainColor>
+                <mainFont>./assets/fonts/gb.ttf</mainFont>
+                <mainFont>./assets/fonts/unispace.otf</mainFont>
+                <fontSize>0.02</fontSize>
+                <fontSize1>0.0225</fontSize1>
+                <fontSize2>0.033</fontSize2>
+                <fontSize3>0.03</fontSize3>
+                <fontSize4>0.06</fontSize4>
+            </variables>
+        </colorScheme>
+        <colorScheme name="classy2">
+            <variables>
+                <colorSchemeName>classy2</colorSchemeName>
+                <backgroundColor>561420</backgroundColor>
+                <mainColor>c59a6f</mainColor>
+                <mainFont>./assets/fonts/unispace.otf</mainFont>
+                <fontSize>0.02</fontSize>
+                <fontSize1>0.0225</fontSize1>
+                <fontSize2>0.033</fontSize2>
+                <fontSize3>0.03</fontSize3>
+                <fontSize4>0.06</fontSize4>
+            </variables>
+        </colorScheme>
+        <colorScheme name="blue2">
+            <variables>
+                <colorSchemeName>blue2</colorSchemeName>
+                <backgroundColor>1b20b7</backgroundColor>
+                <mainColor>9fac9b</mainColor>
+                <mainFont>./assets/fonts/unispace.otf</mainFont>
+                <fontSize>0.02</fontSize>
+                <fontSize1>0.0225</fontSize1>
+                <fontSize2>0.033</fontSize2>
+                <fontSize3>0.03</fontSize3>
+                <fontSize4>0.06</fontSize4>
+            </variables>
+        </colorScheme>
+        <colorScheme name="gameboy2">
+            <variables>
+                <colorSchemeName>gameboy2</colorSchemeName>
+                <backgroundColor>75a883</backgroundColor>
+                <mainColor>3e4943</mainColor>
+                <mainFont>./assets/fonts/unispace.otf</mainFont>
+                <fontSize>0.02</fontSize>
+                <fontSize1>0.0225</fontSize1>
+                <fontSize2>0.033</fontSize2>
+                <fontSize3>0.03</fontSize3>
+                <fontSize4>0.06</fontSize4>
+            </variables>
+        </colorScheme>
+        <colorScheme name="yellow2">
+            <variables>
+                <colorSchemeName>yellow2</colorSchemeName>
+                <backgroundColor>111111</backgroundColor>
+                <mainColor>FEC20C</mainColor>
+                <mainFont>./assets/fonts/unispace.otf</mainFont>
+                <fontSize>0.02</fontSize>
+                <fontSize1>0.0225</fontSize1>
+                <fontSize2>0.033</fontSize2>
+                <fontSize3>0.03</fontSize3>
+                <fontSize4>0.06</fontSize4>
+            </variables>
     </colorScheme>
 </theme>
