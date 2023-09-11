@@ -1,5 +1,4 @@
 
-
 <theme>
     <include>./navigationsounds.xml</include>
     <include>./colors.xml</include>
@@ -56,7 +55,7 @@
                 <origin>0 0</origin>
                 <tile>true</tile>
                 <size>1.1 1.05</size>
-                <path>./lcd.png</path>
+                <path>./assets/lcd.png</path>
                 <zIndex>100</zIndex>
                 <opacity>0.3</opacity>
             </image>
@@ -92,7 +91,7 @@
                 <origin>0 0</origin>
                 <size>1 1</size>
                 <scrollFadeIn>true</scrollFadeIn>
-                <path>./back.svg</path>
+                <path>./assets/back.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
             </image>
@@ -101,7 +100,7 @@
                 <origin>0 0</origin>
                 <size>1 1</size>
                 <scrollFadeIn>true</scrollFadeIn>
-                <path>./gameright.svg</path>
+                <path>./assets/gameright.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
             </image>
@@ -121,11 +120,11 @@
                 <itemSpacing>0 0</itemSpacing>
                 <imageRelativeScale>0.65</imageRelativeScale>
                 <itemScale>1</itemScale>
-                <backgroundImage>./tile.svg</backgroundImage>
+                <backgroundImage>./assets/tile.svg</backgroundImage>
                 <backgroundColor>${mainColor}</backgroundColor>
                 <unfocusedItemOpacity>1</unfocusedItemOpacity>
                 <selectorLayer>middle</selectorLayer>
-                <selectorImage>./selector.svg</selectorImage>
+                <selectorImage>./assets/selector.svg</selectorImage>
                 <selectorColor>${mainColor}</selectorColor>
                 <imageSelectedColor>${backgroundColor}</imageSelectedColor>
                 <selectorRelativeScale>1</selectorRelativeScale>
@@ -144,7 +143,7 @@
                 <origin>0 0</origin>
                 <size>1 1</size>
                 <scrollFadeIn>true</scrollFadeIn>
-                <path>./nometa.svg</path>
+                <path>./assets/nometa.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
             </image>
@@ -163,11 +162,11 @@
                 <itemSpacing>0 0</itemSpacing>
                 <imageRelativeScale>0.65</imageRelativeScale>
                 <itemScale>1</itemScale>
-                <backgroundImage>./tile.svg</backgroundImage>
+                <backgroundImage>./assets/tile.svg</backgroundImage>
                 <backgroundColor>${mainColor}</backgroundColor>
                 <unfocusedItemOpacity>1</unfocusedItemOpacity>
                 <selectorLayer>bottom</selectorLayer>
-                <selectorImage>./selector.svg</selectorImage>
+                <selectorImage>./assets/selector.svg</selectorImage>
                 <selectorColor>${mainColor}</selectorColor>
                 <imageSelectedColor>${backgroundColor}</imageSelectedColor>
                 <selectorRelativeScale>0.9925</selectorRelativeScale>
@@ -186,7 +185,7 @@
                 <origin>0 0</origin>
                 <size>1 1</size>
                 <scrollFadeIn>true</scrollFadeIn>
-                <path>./sysbox.svg</path>
+                <path>./assets/sysbox.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
             </image>
@@ -195,7 +194,7 @@
                 <size>0.4 0.06</size>
                 <origin>0.5 0</origin>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize2}</fontSize>
+                <fontSize>${fontSize3}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <lineSpacing>1</lineSpacing>
                 <color>${mainColor}</color>
@@ -213,7 +212,7 @@
                 <letterCase>capitalize</letterCase>
             </text>
             <text name="systemdesc">
-                <pos>0.075 0.78</pos>
+                <pos>0.075 0.775</pos>
                 <size>0.85 0.17</size>
                 <origin>0 0</origin>
                 <fontPath>${mainFont}</fontPath>
@@ -247,11 +246,11 @@
                 <itemSpacing>0 0</itemSpacing>
                 <imageRelativeScale>0.65</imageRelativeScale>
                 <itemScale>1</itemScale>
-                <backgroundImage>./tile.svg</backgroundImage>
+                <backgroundImage>./assets/tile.svg</backgroundImage>
                 <backgroundColor>${mainColor}</backgroundColor>
                 <unfocusedItemOpacity>1</unfocusedItemOpacity>
                 <selectorLayer>middle</selectorLayer>
-                <selectorImage>./selector.svg</selectorImage>
+                <selectorImage>./assets/selector.svg</selectorImage>
                 <selectorColor>${mainColor}</selectorColor>
                 <selectorRelativeScale>1</selectorRelativeScale>
                 <text>${system.fullName}</text>
@@ -259,7 +258,7 @@
                 <textSelectedColor>${backgroundColor}</textSelectedColor>
                 <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize2}</fontSize>
+                <fontSize>${fontSize3}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>29</zIndex>
@@ -268,7 +267,7 @@
                 <pos>0 0</pos>
                 <origin>0 0</origin>
                 <size>1 1</size>
-                <path>./back.svg</path>
+                <path>./assets/back.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
             </image>
@@ -276,7 +275,7 @@
                 <pos>0 0</pos>
                 <origin>0 0</origin>
                 <size>1 1</size>
-                <path>./gameright.svg</path>
+                <path>./assets/gameright.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
             </image>
@@ -309,7 +308,7 @@
                 <origin>0 0</origin>
                 <rotation>90</rotation>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize3}</fontSize>
+                <fontSize>${fontSize2}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>uppercase</letterCase>
@@ -319,7 +318,7 @@
                 <origin>0 0</origin>
                 <size>1 1</size>
                 <scrollFadeIn>true</scrollFadeIn>
-                <path>./nometa.svg</path>
+                <path>./assets/nometa.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
             </image>
@@ -335,11 +334,11 @@
                 <itemSpacing>0 0</itemSpacing>
                 <imageRelativeScale>0.65</imageRelativeScale>
                 <itemScale>1</itemScale>
-                <backgroundImage>./tile.svg</backgroundImage>
+                <backgroundImage>./assets/tile.svg</backgroundImage>
                 <backgroundColor>${mainColor}</backgroundColor>
                 <unfocusedItemOpacity>1</unfocusedItemOpacity>
                 <selectorLayer>middle</selectorLayer>
-                <selectorImage>./selector.svg</selectorImage>
+                <selectorImage>./assets/selector.svg</selectorImage>
                 <selectorColor>${mainColor}</selectorColor>
                 <selectorRelativeScale>0.9925</selectorRelativeScale>
                 <text>${system.fullName}</text>
@@ -356,7 +355,7 @@
                 <pos>0 0</pos>
                 <origin>0 0</origin>
                 <size>1 1</size>
-                <path>./back.svg</path>
+                <path>./assets/back.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
             </image>
@@ -364,7 +363,7 @@
                 <pos>0 0</pos>
                 <origin>0 0</origin>
                 <size>1 1</size>
-                <path>./gameright.svg</path>
+                <path>./assets/gameright.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
             </image>
@@ -372,7 +371,7 @@
                 <pos>0.63 0.028</pos>
                 <origin>0 0</origin>
                 <size>0.31 0.83</size>
-                <path>./gamemeta.svg</path>
+                <path>./assets/gamemeta.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
             </image>
@@ -380,7 +379,7 @@
                 <pos>0.63 0.028</pos>
                 <origin>0 0</origin>
                 <size>0.31 0.83</size>
-                <path>./gamemetaback.svg</path>
+                <path>./assets/gamemetaback.svg</path>
                 <color>${backgroundColor}</color>
                 <zIndex>6</zIndex>
             </image>
@@ -388,7 +387,7 @@
                 <pos>0 0</pos>
                 <origin>0 0</origin>
                 <size>1 1</size>
-                <path>./gamebox.svg</path>
+                <path>./assets/gamebox.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
             </image>

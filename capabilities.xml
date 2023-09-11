@@ -12,8 +12,8 @@
         <label>Dark</label>
     </colorScheme>
 
-    <colorScheme name="light">
-        <label>Light</label>
+    <colorScheme name="watch">
+        <label>Game & Watch</label>
     </colorScheme>
     <colorScheme name="red">
         <label>Red</label>

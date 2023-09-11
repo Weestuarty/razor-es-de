@@ -13,18 +13,17 @@
         </variables>
     </colorScheme>
 
-    <colorScheme name="light">
+    <colorScheme name="watch">
         <variables>
-            <colorSchemeName>light</colorSchemeName>
+            <colorSchemeName>watch</colorSchemeName>
             <backgroundColor>6e706d</backgroundColor>
             <mainColor>000000</mainColor>
-            
-            <mainFont>./assets/fonts/unispace.otf</mainFont>
-            <fontSize>0.02</fontSize>
-            <fontSize1>0.0225</fontSize1>
-            <fontSize2>0.033</fontSize2>
-            <fontSize3>0.03</fontSize3>
-            <fontSize4>0.06</fontSize4>
+            <mainFont>./assets/fonts/gb.ttf</mainFont>
+            <fontSize>0.025</fontSize>
+            <fontSize1>0.0275</fontSize1>
+            <fontSize2>0.045</fontSize2>
+            <fontSize3>0.04</fontSize3>
+            <fontSize4>0.05</fontSize4>
         </variables>
     </colorScheme>
     <colorScheme name="classy">
@@ -58,12 +57,12 @@
             <colorSchemeName>gameboy</colorSchemeName>
             <backgroundColor>75a883</backgroundColor>
             <mainColor>3e4943</mainColor>
-            <mainFont>./assets/fonts/24.ttf</mainFont>
-            <fontSize>0.02</fontSize>
+            <mainFont>./assets/fonts/gb.ttf</mainFont>
+            <fontSize>0.025</fontSize>
             <fontSize1>0.0275</fontSize1>
             <fontSize2>0.045</fontSize2>
             <fontSize3>0.04</fontSize3>
-            <fontSize4>0.06</fontSize4>
+            <fontSize4>0.05</fontSize4>
         </variables>
     </colorScheme>
 
@@ -86,12 +85,12 @@
             <colorSchemeName>yellow</colorSchemeName>
             <backgroundColor>111111</backgroundColor>
             <mainColor>FEC20C</mainColor>
-            <mainFont>./assets/fonts/24.ttf</mainFont>
-            <fontSize>0.02</fontSize>
+            <mainFont>./assets/fonts/gb.ttf</mainFont>
+            <fontSize>0.025</fontSize>
             <fontSize1>0.0275</fontSize1>
             <fontSize2>0.045</fontSize2>
             <fontSize3>0.04</fontSize3>
-            <fontSize4>0.06</fontSize4>
+            <fontSize4>0.05</fontSize4>
         </variables>
     </colorScheme>
 </theme>
