@@ -59,6 +59,17 @@
                 <zIndex>100</zIndex>
                 <opacity>0.3</opacity>
             </image>
+            <text name="collectionsSystemName">
+                <pos>0.775 0.34</pos>
+                <size>0.4 0.1</size>
+                <rotation>90</rotation>
+                <fontPath>${mainFont}</fontPath>
+                <fontSize>${fontSize1}</fontSize>
+                <horizontalAlignment>center</horizontalAlignment>
+                <color>${mainColor}</color>
+                <letterCase>capitalize</letterCase>
+                <zIndex>10</zIndex>
+            </text>
            
         </view>
         <view name="system">

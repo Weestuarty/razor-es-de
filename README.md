@@ -1,37 +1,18 @@
-# Razor for EmulationStation Desktop Edition (razot-es-de)
+# Modern for EmulationStation Desktop Edition (modern-es-de)
 
-Razor is an old school lcd inspired theme
-
-![systems](sys.png)
-![games](game.png)
+Modern is an official theme set for ES-DE that supports all systems as well as the latest application features.
 
 The following options are included:
 
 2 variants:
 
-- Grid with metadata
-- Grid without metadata
+- Textlist with videos
+- Textlist without videos
 
-18 color schemes:
+2 color schemes:
 
-- Game & Watch
-- Game & Watch (lcd font)
-- Game & Watch (alt font)
-- Gameboy
-- Gameboy (lcd font)
-- Gameboy (alt font)
-- Classy
-- Classy (lcd font)
-- Classy (alt font)
-- Blue LCD
-- Blue LCD (lcd font)
-- Blue LCD (alt font)
-- Dark
-- Dark (lcd font)
-- Dark (alt font)
-- Yellow
-- Yellow (lcd font)
-- Yellow (alt font)
+- Dark mode
+- Light mode
 
 4 aspect ratios:
 
@@ -46,3 +27,6 @@ The following options are included:
 - Instant and slide
 - Instant and fade
 
+# Credits
+
+The theme is based on [es-theme-switch](https://github.com/lilbud/es-theme-switch) by lilbud.
