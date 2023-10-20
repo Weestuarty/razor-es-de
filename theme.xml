@@ -99,7 +99,6 @@
                 <pos>0 0</pos>
                 <origin>0 0</origin>
                 <size>1 1</size>
-                <scrollFadeIn>true</scrollFadeIn>
                 <path>./assets/back.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
@@ -108,7 +107,6 @@
                 <pos>0 0</pos>
                 <origin>0 0</origin>
                 <size>1 1</size>
-                <scrollFadeIn>true</scrollFadeIn>
                 <path>./assets/gameright.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
@@ -151,7 +149,6 @@
                 <pos>0 0</pos>
                 <origin>0 0</origin>
                 <size>1 1</size>
-                <scrollFadeIn>true</scrollFadeIn>
                 <path>./assets/nometa.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
@@ -193,7 +190,6 @@
                 <pos>0 0</pos>
                 <origin>0 0</origin>
                 <size>1 1</size>
-                <scrollFadeIn>true</scrollFadeIn>
                 <path>./assets/sysbox.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
@@ -326,7 +322,6 @@
                 <pos>0 0</pos>
                 <origin>0 0</origin>
                 <size>1 1</size>
-                <scrollFadeIn>true</scrollFadeIn>
                 <path>./assets/nometa.svg</path>
                 <color>${mainColor}</color>
                 <zIndex>7</zIndex>
@@ -455,6 +450,31 @@
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
             </text>
+            <text name="md_playerslbl">
+                <pos>0.8 0.06</pos>
+                <size>0.1 0.04</size>
+                <origin>0 0</origin>
+                <text>Players:</text>
+                <systemNameSuffix>false</systemNameSuffix>
+                <fontPath>${mainFont}</fontPath>
+                <fontSize>${fontSize1}</fontSize>
+                <lineSpacing>1</lineSpacing>
+                <horizontalAlignment>center</horizontalAlignment>
+                <color>${mainColor}</color>
+            </text>
+            <text name="md_players">
+                <pos>0.935 0.06</pos>
+                <size>0.1 0.04</size>
+                <origin>0.5 0</origin>
+                <metadata>players</metadata>
+                <defaultValue>:space:</defaultValue>
+                <systemNameSuffix>false</systemNameSuffix>
+                <fontPath>${mainFont}</fontPath>
+                <fontSize>${fontSize1}</fontSize>
+                <lineSpacing>1</lineSpacing>
+                <horizontalAlignment>left</horizontalAlignment>
+                <color>${mainColor}</color>
+            </text>
             <rating name="rating">
                 <pos>0.86 0.8575</pos>
                 <origin>0.5 0</origin>
@@ -489,7 +509,7 @@
             </datetime>
             <text name="md_des">
                 <pos>0.65 0.625</pos>
-                <size>0.28 0.22</size>
+                <size>0.28 0.21</size>
                 <origin>0 0</origin>
                 <metadata>description</metadata>
                 <fontPath>${mainFont}</fontPath>

@@ -2,7 +2,7 @@
     <include>./../theme.xml</include>
     <include>./colors.xml</include>
 
-    <variant name="all">
+    <variant name="meta">
         <view name="gamelist">
             <text name="collectionsSystemName">
                 <metadata>sourceSystemFullname</metadata>
