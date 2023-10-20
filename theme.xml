@@ -446,6 +446,8 @@
                 <systemNameSuffix>false</systemNameSuffix>
                 <fontPath>${mainFont}</fontPath>
                 <fontSize>${fontSize2}</fontSize>
+                <container>true</container>
+                <containerType>horizontal</containerType>
                 <lineSpacing>1</lineSpacing>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
