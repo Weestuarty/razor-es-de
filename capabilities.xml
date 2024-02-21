@@ -73,7 +73,15 @@
         <entry>builtin-slide</entry>
         <entry>builtin-fade</entry>
     </suppressTransitionProfiles>
-
+    <variant name="ncm">
+        <label>gb w/Metadata(no color)</label>
+        <selectable>true</selectable>
+        
+    </variant><variant name="ncnm">
+        <label>gb w/o Metadata (no color)</label>
+        <selectable>true</selectable>
+        
+    </variant>
     <variant name="meta">
         <label>gb w/Metadata</label>
         <selectable>true</selectable>

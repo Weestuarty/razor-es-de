@@ -242,7 +242,7 @@
             </text>
         </view>
     </variant>
-    <variant name="nometa, nometa2, nometa3">
+    <variant name="nometa, nometa2, nometa3,ncnm">
         <view name="gamelist">
             <grid name="system_grid">
                 <origin>0 0</origin>
@@ -329,7 +329,7 @@
             </image>
         </view>
     </variant>
-    <variant name="meta, meta2, meta3">
+    <variant name="meta, meta2, meta3,ncm">
         <view name="gamelist">
             <grid name="system_grid">
                 <origin>0 0</origin>
@@ -546,6 +546,23 @@
             </badges>
         </view>
     </variant>
-
+    <variant name="ncnm,ncm">
+        <view name="gamelist">
+            <grid name="system_grid">
+                <imageColor>${backgroundColor}</imageColor>
+            
+                <imageSaturation>0</imageSaturation>
+                
+            </grid>
+        </view>
+    </variant>
+    <variant name="ncm">
+        <view name="gamelist">
+            <video name="backgroundimage1">
+                <color>${backgroundColor}</color>
+                <saturation>0</saturation>
+            </video>
+            </view>
+            </variant>
 
 </theme>

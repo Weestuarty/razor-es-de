@@ -1,5 +1,5 @@
 <theme>
-    <variant name="meta, meta2,meta3">
+    <variant name="meta, meta2,meta3,ncm">
         <fontSize name="medium">
             <variables>
                 <gridSize>0.2125 0.135</gridSize>
@@ -19,7 +19,7 @@
             </variables>
         </fontSize>
     </variant>
-    <variant name="nometa, nometa2, nometa3">
+    <variant name="nometa, nometa2, nometa3,ncnm">
         <fontSize name="medium">
             <variables>
                 <gridSize>0.2125 0.15</gridSize>
@@ -39,7 +39,7 @@
             </variables>
         </fontSize>
     </variant>
-    <variant name="meta, nometa">
+    <variant name="meta, nometa, ncm, ncnm">
         <variables>
             <mainFont>./assets/fonts/gb.ttf</mainFont>
         </variables>
