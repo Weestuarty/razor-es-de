@@ -115,7 +115,7 @@
             
         </view>
     </variant>
-    <variant name="nometa, nometa2, nometa3">
+    <variant name="nometa, nometa2, nometa3,ncnm">
         <view name="system">
             <grid name="system_grid">
                 <origin>0.5 0</origin>
@@ -156,7 +156,7 @@
             </image>
         </view>
     </variant>
-    <variant name="meta, meta2, meta3">
+    <variant name="meta, meta2, meta3,ncm">
         <view name="system">
             <grid name="system_grid">
                 <origin>0.5 0</origin>
