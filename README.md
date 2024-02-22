@@ -1,18 +1,13 @@
-# Modern for EmulationStation Desktop Edition (modern-es-de)
+# Razor for ESDE
 
-Modern is an official theme set for ES-DE that supports all systems as well as the latest application features.
+Razor is an official theme set for ES-DE that supports all systems as well as the latest application features.
 
-The following options are included:
+There are multiple variants and colorschemes to choose from including our newest colorfree variants with support from Bentendo for coloring and the new system sounds.
 
-2 variants:
+![systems](sys.png)
+![games](gme.png)
+![games](game.png)
 
-- Textlist with videos
-- Textlist without videos
-
-2 color schemes:
-
-- Dark mode
-- Light mode
 
 4 aspect ratios:
 
@@ -21,12 +16,8 @@ The following options are included:
 - 4:3
 - 21:9
 
-3 transitions:
-
-- Instant
-- Instant and slide
 - Instant and fade
 
 # Credits
 
-The theme is based on [es-theme-switch](https://github.com/lilbud/es-theme-switch) by lilbud.
+Sounds - Bentendo 
