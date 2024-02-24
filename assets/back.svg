@@ -24,9 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
+<<<<<<< Updated upstream
      inkscape:zoom="1.8016491"
      inkscape:cx="136.54157"
      inkscape:cy="182.61048"
+=======
+     inkscape:zoom="0.45041228"
+     inkscape:cx="896.95601"
+     inkscape:cy="337.4686"
+>>>>>>> Stashed changes
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -100,36 +106,61 @@
        d="m -0.42900524,226.05907 23.97882524,-8.19189 -1.731736,-1.4538 -22.31148184,7.43458 z"
        sodipodi:nodetypes="ccccc" />
     <path
+<<<<<<< Updated upstream
        d="M 27.424489,23.685901 Z"
+=======
+       d="M 22.661986,-9.1224416 Z"
+>>>>>>> Stashed changes
        id="path3"
        inkscape:connector-curvature="0"
        style="fill:#d67e4d;fill-opacity:1;stroke-width:0.0648766" />
     <path
+<<<<<<< Updated upstream
        d="M 28.938018,19.23216 Z"
+=======
+       d="M 24.175515,-13.576182 Z"
+>>>>>>> Stashed changes
        id="path5"
        inkscape:connector-curvature="0"
        style="fill:#d67e4d;fill-opacity:1;stroke-width:0.0648766" />
     <path
+<<<<<<< Updated upstream
        d="M 30.452076,14.776859 Z"
+=======
+       d="M 25.689573,-18.031483 Z"
+>>>>>>> Stashed changes
        id="path7"
        inkscape:connector-curvature="0"
        style="fill:#d67e4d;fill-opacity:1;stroke-width:0.0648766" />
     <path
+<<<<<<< Updated upstream
        d="M 29.695193,17.004079 Z"
+=======
+       d="M 24.93269,-15.804263 Z"
+>>>>>>> Stashed changes
        id="path9"
        inkscape:connector-curvature="0"
        style="fill:#d67e4d;fill-opacity:1;stroke-width:0.0648766" />
     <path
+<<<<<<< Updated upstream
        d="M 26.667606,25.91312 Z"
+=======
+       d="M 21.905103,-6.8952243 Z"
+>>>>>>> Stashed changes
        id="path11"
        inkscape:connector-curvature="0"
        style="fill:#d67e4d;fill-opacity:1;stroke-width:0.0648766" />
     <path
+<<<<<<< Updated upstream
        d="M 28.181518,21.458251 Z"
+=======
+       d="M 23.419015,-11.350091 Z"
+>>>>>>> Stashed changes
        id="path13"
        inkscape:connector-curvature="0"
        style="fill:#d67e4d;fill-opacity:1;stroke-width:0.0648766" />
     <g
+<<<<<<< Updated upstream
        id="g1404"
        transform="matrix(0,-0.11969923,0.08992549,0,-15.262676,256.06818)">
       <path
@@ -334,5 +365,55 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+=======
+       aria-label="ES-DE"
+       transform="matrix(0,-0.12256143,0.10564825,0,-21.840963,166.21436)"
+       id="text112598-2"
+       style="font-size:195.9px;line-height:1.25;font-family:Akrobat;-inkscape-font-specification:Akrobat;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:1.02032">
+      <path
+         d="m 673.97415,349.08115 v 18.6105 h -69.1527 v -137.13 h 67.1937 v 18.6105 h -47.4078 v 39.7677 h 43.6857 v 18.2187 h -43.6857 v 41.9226 z"
+         style="font-weight:bold;-inkscape-font-specification:'Akrobat Bold';fill:#ffffff"
+         id="path131021-8" />
+      <path
+         d="m 726.67096,370.23835 q -18.4146,0 -29.1891,-10.7745 -10.7745,-10.7745 -10.9704,-29.385 h 20.1777 q 0.1959,10.3827 5.2893,15.672 5.2893,5.2893 14.6925,5.2893 9.5991,0 14.4966,-5.0934 5.0934,-5.0934 5.0934,-13.713 0,-8.2278 -6.0729,-13.9089 -6.0729,-5.877 -18.4146,-13.1253 -10.7745,-6.6606 -17.2392,-11.754 -6.4647,-5.0934 -11.1663,-12.7335 -4.5057,-7.6401 -4.5057,-18.0228 0,-9.795 4.5057,-17.631 4.7016,-8.0319 13.1253,-12.5376 8.6196,-4.5057 19.9818,-4.5057 17.4351,0 27.6219,10.3827 10.1868,10.3827 10.5786,28.0137 h -20.1777 q -0.1959,-9.5991 -4.8975,-14.4966 -4.7016,-4.8975 -12.9294,-4.8975 -8.2278,0 -12.9294,4.3098 -4.7016,4.3098 -4.7016,11.754 0,5.6811 3.1344,9.9909 3.1344,4.3098 7.6401,7.6401 4.7016,3.1344 13.1253,8.2278 10.9704,6.4647 17.631,11.5581 6.6606,5.0934 11.3622,13.1253 4.7016,7.836 4.7016,18.8064 0,10.3827 -4.7016,19.0023 -4.7016,8.6196 -13.9089,13.713 -9.0114,5.0934 -21.3531,5.0934 z"
+         style="font-weight:bold;-inkscape-font-specification:'Akrobat Bold';fill:#ffffff"
+         id="path131023-9" />
+      <path
+         d="m 779.95542,295.02371 h 45.71921 v 16.8474 h -45.71921 z"
+         style="font-weight:bold;-inkscape-font-specification:'Akrobat Bold';fill:#ffffff"
+         id="path131025-3" />
+      <path
+         d="m 846.04984,230.56165 h 34.0866 c 13.3212,0 23.7039,3.7874 31.1481,11.3622 7.4442,7.4442 11.1663,17.8922 11.1663,31.344 v 51.3258 c 0,13.5824 -3.7221,24.161 -11.1663,31.7358 -7.4442,7.5748 -17.7616,11.3622 -30.9522,11.3622 h -34.2825 z m 34.2825,118.3236 c 7.0524,0 12.4723,-2.0896 16.2597,-6.2688 3.918,-4.1792 5.877,-10.3174 5.877,-18.4146 v -50.5422 c 0,-7.9666 -1.8937,-13.9742 -5.6811,-18.0228 -3.7874,-4.1792 -9.2726,-6.2688 -16.4556,-6.2688 h -14.4966 v 99.5172 z"
+         style="font-weight:bold;-inkscape-font-specification:'Akrobat Bold';fill:#ffffff"
+         id="path131027-6" />
+      <path
+         d="m 1015.1112,349.08115 v 18.6105 h -69.1527 v -137.13 h 67.1937 v 18.6105 h -47.4078 v 39.7677 h 43.6857 v 18.2187 h -43.6857 v 41.9226 z"
+         style="font-weight:bold;-inkscape-font-specification:'Akrobat Bold';fill:#ffffff"
+         id="path131029-8" />
+    </g>
+    <rect
+       style="fill:#ffffff;stroke-width:0.97219;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect231-8-3"
+       width="2.4922321"
+       height="93.541008"
+       x="21.89535"
+       y="-120.20803"
+       transform="scale(1,-1)" />
+    <path
+       id="rect233-4-2-1-6-7"
+       style="fill:#ffffff;stroke-width:1.1789;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m -0.23161738,111.48378 24.56625038,8.41217 0.0305,2.26151 -24.66118038,-8.46257 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="rect233-4-2-1-4-3"
+       style="fill:#ffffff;stroke-width:1.1789;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 0.06209262,108.32637 23.97883038,8.19189 -1.73174,1.4538 -22.31148038,-7.43458 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="rect233-4-2-1-3-6"
+       style="fill:#ffffff;stroke-width:1.1789;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 0.28237262,105.24239 23.97883038,8.19189 -1.73174,1.4538 -22.31148038,-7.43458 z"
+       sodipodi:nodetypes="ccccc" />
+>>>>>>> Stashed changes
   </g>
 </svg>

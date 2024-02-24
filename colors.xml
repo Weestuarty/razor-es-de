@@ -3,6 +3,7 @@
         <variables>
             <colorSchemeName>dark</colorSchemeName>
             <backgroundColor>323232</backgroundColor>
+<<<<<<< Updated upstream
             <mainColor>FFFFFF</mainColor>
             <mainFont>./assets/fonts/gb.ttf</mainFont>
             <fontSize>0.025</fontSize>
@@ -10,6 +11,11 @@
             <fontSize2>0.045</fontSize2>
             <fontSize3>0.04</fontSize3>
             <fontSize4>0.05</fontSize4>
+=======
+            <mainColor>FFFFFF</mainColor> 
+            <gridColor>E2E2E2</gridColor> 
+            <selectColor>E2E2E2</selectColor>          
+>>>>>>> Stashed changes
         </variables>
     </colorScheme>
 
@@ -18,12 +24,19 @@
             <colorSchemeName>watch</colorSchemeName>
             <backgroundColor>6e706d</backgroundColor>
             <mainColor>000000</mainColor>
+<<<<<<< Updated upstream
             <mainFont>./assets/fonts/gb.ttf</mainFont>
             <fontSize>0.025</fontSize>
             <fontSize1>0.0275</fontSize1>
             <fontSize2>0.045</fontSize2>
             <fontSize3>0.04</fontSize3>
             <fontSize4>0.05</fontSize4>
+=======
+            
+            <selectColor>6e706d</selectColor>  
+            <gridColor>4e504d</gridColor>
+            
+>>>>>>> Stashed changes
         </variables>
     </colorScheme>
     <colorScheme name="classy">
@@ -31,12 +44,18 @@
             <colorSchemeName>classy</colorSchemeName>
             <backgroundColor>561420</backgroundColor>
             <mainColor>c59a6f</mainColor>
+<<<<<<< Updated upstream
             <mainFont>./assets/fonts/gb.ttf</mainFont>
             <fontSize>0.025</fontSize>
             <fontSize1>0.0275</fontSize1>
             <fontSize2>0.045</fontSize2>
             <fontSize3>0.04</fontSize3>
             <fontSize4>0.05</fontSize4>
+=======
+            
+            <selectColor>561420</selectColor>  
+            <gridColor>c59a6f</gridColor>
+>>>>>>> Stashed changes
         </variables>
     </colorScheme>
     <colorScheme name="blue">
@@ -44,12 +63,18 @@
             <colorSchemeName>blue</colorSchemeName>
             <backgroundColor>1b20b7</backgroundColor>
             <mainColor>9fac9b</mainColor>
+<<<<<<< Updated upstream
             <mainFont>./assets/fonts/gb.ttf</mainFont>
             <fontSize>0.025</fontSize>
             <fontSize1>0.0275</fontSize1>
             <fontSize2>0.045</fontSize2>
             <fontSize3>0.04</fontSize3>
             <fontSize4>0.05</fontSize4>
+=======
+            
+            <selectColor>7272E2</selectColor>  
+            <gridColor>9292E2</gridColor>
+>>>>>>> Stashed changes
         </variables>
     </colorScheme>
     <colorScheme name="gameboy">
@@ -57,18 +82,26 @@
             <colorSchemeName>gameboy</colorSchemeName>
             <backgroundColor>75a883</backgroundColor>
             <mainColor>3e4943</mainColor>
+<<<<<<< Updated upstream
             <mainFont>./assets/fonts/gb.ttf</mainFont>
             <fontSize>0.025</fontSize>
             <fontSize1>0.0275</fontSize1>
             <fontSize2>0.045</fontSize2>
             <fontSize3>0.04</fontSize3>
             <fontSize4>0.05</fontSize4>
+=======
+            
+            <selectColor>75a883</selectColor>  
+            <gridColor>75a883</gridColor>
+           
+>>>>>>> Stashed changes
         </variables>
     </colorScheme>
     <colorScheme name="yellow">
         <variables>
             <colorSchemeName>yellow</colorSchemeName>
             <backgroundColor>111111</backgroundColor>
+<<<<<<< Updated upstream
             <mainColor>FEC20C</mainColor>
             <mainFont>./assets/fonts/gb.ttf</mainFont>
             <fontSize>0.025</fontSize>
@@ -76,6 +109,13 @@
             <fontSize2>0.045</fontSize2>
             <fontSize3>0.04</fontSize3>
             <fontSize4>0.05</fontSize4>
+=======
+            <mainColor>D4AF37</mainColor>
+            
+            <selectColor>946F07</selectColor>  
+            <gridColor>D4AF37</gridColor>
+            
+>>>>>>> Stashed changes
         </variables>
     </colorScheme>
         <colorScheme name="dark2">
