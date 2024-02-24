@@ -14,8 +14,7 @@
         <syslogocolorcustom>./system/custom/logocolor/${system.theme}.svg</syslogocolorcustom>
     </variables>
 
-    
-       
+         
         <aspectRatio name="16:10">
             <include>./16-10.xml</include>
         </aspectRatio>
@@ -114,7 +113,11 @@
             
         </view>
     </variant>
+<<<<<<< Updated upstream
     <variant name="nometa">
+=======
+    <variant name="nometa, nometa2, nometa3, ncnm, acnm, lcnm">
+>>>>>>> Stashed changes
         <view name="system">
             <grid name="system_grid">
                 <origin>0 0</origin>
@@ -155,7 +158,11 @@
             </image>
         </view>
     </variant>
+<<<<<<< Updated upstream
     <variant name="meta">
+=======
+    <variant name="meta, meta2, meta3, ncm, acm, lcm">
+>>>>>>> Stashed changes
         <view name="system">
             <grid name="system_grid">
                 <origin>0.5 0</origin>
@@ -241,7 +248,11 @@
             </text>
         </view>
     </variant>
+<<<<<<< Updated upstream
     <variant name="nometa">
+=======
+    <variant name="nometa, nometa2, nometa3, ncnm, acnm, lcnm">
+>>>>>>> Stashed changes
         <view name="gamelist">
             <grid name="system_grid">
                 <origin>0 0</origin>
@@ -328,7 +339,11 @@
             </image>
         </view>
     </variant>
+<<<<<<< Updated upstream
     <variant name="meta">
+=======
+    <variant name="meta, meta2, meta3, ncm, acm, lcm">
+>>>>>>> Stashed changes
         <view name="gamelist">
             <grid name="system_grid">
                 <origin>0 0</origin>
@@ -545,6 +560,24 @@
             </badges>
         </view>
     </variant>
-
+    <variant name="ncnm,ncm,lcm,lcnm,acm,acnm">
+        <view name="gamelist">
+            <grid name="system_grid">
+                <imageColor>${gridColor}</imageColor>
+                <imageSelectedColor>${selectColor}</imageSelectedColor>
+            
+                <imageSaturation>0</imageSaturation>
+                
+            </grid>
+        </view>
+    </variant>
+    <variant name="ncm,lcm,acm">
+        <view name="gamelist">
+            <video name="backgroundimage1">
+                <color>${gridColor}</color>
+                <saturation>0</saturation>
+            </video>
+            </view>
+            </variant>
 
 </theme>
