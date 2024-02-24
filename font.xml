@@ -1,5 +1,5 @@
 <theme>
-    <variant name="meta, meta2,meta3">
+    <variant name="meta, meta2,meta3,ncm,acm,lcm">
         <fontSize name="medium">
             <variables>
                 <gridSize>0.2125 0.135</gridSize>
@@ -19,7 +19,7 @@
             </variables>
         </fontSize>
     </variant>
-    <variant name="nometa, nometa2, nometa3">
+    <variant name="nometa, nometa2, nometa3, ncnm, acnm,lcnm">
         <fontSize name="medium">
             <variables>
                 <gridSize>0.2125 0.15</gridSize>
@@ -39,7 +39,7 @@
             </variables>
         </fontSize>
     </variant>
-    <variant name="meta, nometa">
+    <variant name="meta, nometa, ncm, ncnm">
         <variables>
             <mainFont>./assets/fonts/gb.ttf</mainFont>
         </variables>
@@ -93,7 +93,7 @@
     </fontSize>
     </variant>
 
-    <variant name="meta2, nometa2">
+    <variant name="meta2, nometa2, lcnm, lcm">
         <variables>
             <mainFont>./assets/fonts/lcd.otf</mainFont>
         </variables>
@@ -148,7 +148,7 @@
     </fontSize>
     </variant>
 
-    <variant name="meta3, nometa3">
+    <variant name="meta3, nometa3, acnm, acm">
         <variables>
             <mainFont>./assets/fonts/unispace.otf</mainFont>
         </variables>
