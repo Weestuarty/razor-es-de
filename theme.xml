@@ -2,6 +2,7 @@
 <theme>
     <include>./navigationsounds.xml</include>
     <include>./colors.xml</include>
+    <include>./font.xml</include>
     <include>./system/metadata/_default.xml</include>
     <include>./system/custom/metadata/_default.xml</include>
     <include>./system/custom/metadata/${system.theme}.xml</include>
@@ -41,7 +42,7 @@
             <helpsystem name="help">
                 <pos>0.5 0.975</pos>
                 <origin>0.5 0.5</origin>
-                <fontSize>${fontSize}</fontSize>
+                <fontSize>${help}</fontSize>
                 <textColor>${mainColor}</textColor>
                 <textColorDimmed>${mainColor}</textColorDimmed>
                 <iconColor>${mainColor}</iconColor>
@@ -61,7 +62,7 @@
             <text name="collectionsSystemName">
                 
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize1}</fontSize>
+                <fontSize>${systitle}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
@@ -76,7 +77,7 @@
                 <rotation>90</rotation>
                 <text>System Select</text>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize4}</fontSize>
+                <fontSize>${sysselect}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
@@ -88,7 +89,7 @@
                 <rotation>90</rotation>
                 <systemdata>gamecountGames</systemdata>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize1}</fontSize>
+                <fontSize>${sysside}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
@@ -113,17 +114,13 @@
             
         </view>
     </variant>
-<<<<<<< Updated upstream
-    <variant name="nometa">
-=======
     <variant name="nometa, nometa2, nometa3, ncnm, acnm, lcnm">
->>>>>>> Stashed changes
         <view name="system">
             <grid name="system_grid">
-                <origin>0 0</origin>
-                <pos>0.065 0.045</pos>
-                <size>0.87 .91</size>
-                <itemSize>0.174 0.15</itemSize>
+                <origin>0.5 0</origin>
+                <pos>0.5 0.04</pos>
+                <size>0.85 .91</size>
+                <itemSize>${gridSize}</itemSize>
                 <staticImage>${syslogo}</staticImage>
                 <defaultImage>${syslogocustom}</defaultImage>
                 <imageColor>${mainColor}</imageColor>
@@ -143,7 +140,7 @@
                 <textSelectedColor>${backgroundColor}</textSelectedColor>
                 <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize1}</fontSize>
+                <fontSize>${gridtext}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>50</zIndex>
@@ -158,11 +155,7 @@
             </image>
         </view>
     </variant>
-<<<<<<< Updated upstream
-    <variant name="meta">
-=======
     <variant name="meta, meta2, meta3, ncm, acm, lcm">
->>>>>>> Stashed changes
         <view name="system">
             <grid name="system_grid">
                 <origin>0.5 0</origin>
@@ -171,7 +164,7 @@
                 <staticImage>${syslogo}</staticImage>
                 <defaultImage>${syslogocustom}</defaultImage>
                 <imageColor>${mainColor}</imageColor>
-                <itemSize>0.2125 0.135</itemSize>
+                <itemSize>${gridSize}</itemSize>
                 <itemSpacing>0 0</itemSpacing>
                 <imageRelativeScale>0.65</imageRelativeScale>
                 <itemScale>1</itemScale>
@@ -188,7 +181,7 @@
                 <textColor>${mainColor}</textColor>
                 <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize1}</fontSize>
+                <fontSize>${gridtext}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>50</zIndex>
@@ -206,7 +199,7 @@
                 <size>0.4 0.06</size>
                 <origin>0.5 0</origin>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize3}</fontSize>
+                <fontSize>${systitle}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <lineSpacing>1</lineSpacing>
                 <color>${mainColor}</color>
@@ -228,7 +221,7 @@
                 <size>0.85 0.17</size>
                 <origin>0 0</origin>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize1}</fontSize>
+                <fontSize>${sysmeta}</fontSize>
                 <container>true</container>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${mainColor}</color>
@@ -236,29 +229,25 @@
                 <lineSpacing>1</lineSpacing>
             </text>
             <text name="systemrelease">
-                <pos>-.03 0.825</pos>
+                <pos>-.055 0.825</pos>
                 <rotation>-90</rotation>
-                <size>0.1 0.08</size>
+                <size>0.15 0.08</size>
                 <origin>0 0</origin>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize2}</fontSize>
+                <fontSize>${sysside}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <text>${systemReleaseYear}</text>
             </text>
         </view>
     </variant>
-<<<<<<< Updated upstream
-    <variant name="nometa">
-=======
     <variant name="nometa, nometa2, nometa3, ncnm, acnm, lcnm">
->>>>>>> Stashed changes
         <view name="gamelist">
             <grid name="system_grid">
                 <origin>0 0</origin>
-                <pos>0.065 0.045</pos>
+                <pos>0.0725 0.045</pos>
                 <size>0.87 .91</size>
-                <itemSize>0.174 0.15</itemSize>
+                <itemSize>${gridSize2}</itemSize>
                 <itemSpacing>0 0</itemSpacing>
                 <imageRelativeScale>0.65</imageRelativeScale>
                 <itemScale>1</itemScale>
@@ -274,7 +263,7 @@
                 <textSelectedColor>${backgroundColor}</textSelectedColor>
                 <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize3}</fontSize>
+                <fontSize>${gridtext}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>29</zIndex>
@@ -301,7 +290,7 @@
                 <origin>0 0</origin>
                 <rotation>90</rotation>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize2}</fontSize>
+                <fontSize>${sysselect}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>uppercase</letterCase>
@@ -324,7 +313,7 @@
                 <origin>0 0</origin>
                 <rotation>90</rotation>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize2}</fontSize>
+                <fontSize>${sysselect}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>uppercase</letterCase>
@@ -339,17 +328,13 @@
             </image>
         </view>
     </variant>
-<<<<<<< Updated upstream
-    <variant name="meta">
-=======
     <variant name="meta, meta2, meta3, ncm, acm, lcm">
->>>>>>> Stashed changes
         <view name="gamelist">
             <grid name="system_grid">
                 <origin>0 0</origin>
                 <pos>0.065 0.04</pos>
                 <size>0.57 .815</size>
-                <itemSize>0.19 0.135</itemSize>
+                <itemSize>${gridSize2}</itemSize>
                 <itemSpacing>0 0</itemSpacing>
                 <imageRelativeScale>0.65</imageRelativeScale>
                 <itemScale>1</itemScale>
@@ -365,7 +350,7 @@
                 <textSelectedColor>${backgroundColor}</textSelectedColor>
                 <textRelativeScale>0.65</textRelativeScale>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize3}</fontSize>
+                <fontSize>${gridtext}</fontSize>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>0.8</lineSpacing>
                 <zIndex>29</zIndex>
@@ -425,7 +410,7 @@
                 <origin>0 0</origin>
                 <rotation>90</rotation>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize3}</fontSize>
+                <fontSize>${sysselect}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>uppercase</letterCase>
@@ -448,7 +433,7 @@
                 <origin>0 0</origin>
                 <rotation>90</rotation>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize3}</fontSize>
+                <fontSize>${sysselect}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>uppercase</letterCase>
@@ -460,7 +445,7 @@
                 <metadata>name</metadata>
                 <systemNameSuffix>false</systemNameSuffix>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize2}</fontSize>
+                <fontSize>${gametitle}</fontSize>
                 <container>true</container>
                 <containerType>horizontal</containerType>
                 <lineSpacing>1</lineSpacing>
@@ -468,26 +453,26 @@
                 <color>${mainColor}</color>
             </text>
             <text name="md_playerslbl">
-                <pos>0.8 0.06</pos>
+                <pos>0.79 0.06</pos>
                 <size>0.1 0.04</size>
                 <origin>0 0</origin>
                 <text>Players:</text>
                 <systemNameSuffix>false</systemNameSuffix>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize1}</fontSize>
+                <fontSize>${gameplay}</fontSize>
                 <lineSpacing>1</lineSpacing>
-                <horizontalAlignment>center</horizontalAlignment>
+                <horizontalAlignment>right</horizontalAlignment>
                 <color>${mainColor}</color>
             </text>
             <text name="md_players">
-                <pos>0.935 0.06</pos>
+                <pos>0.945 0.06</pos>
                 <size>0.1 0.04</size>
                 <origin>0.5 0</origin>
                 <metadata>players</metadata>
                 <defaultValue>:space:</defaultValue>
                 <systemNameSuffix>false</systemNameSuffix>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize1}</fontSize>
+                <fontSize>${gameplay}</fontSize>
                 <lineSpacing>1</lineSpacing>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${mainColor}</color>
@@ -501,13 +486,13 @@
                 <unfilledPath>./assets/rating_empty.svg</unfilledPath>
             </rating>
             <text name="md_rellbl">
-                <pos>0.09 0.8575</pos>
+                <pos>0.06 0.8575</pos>
                 <size>0.1 0.03</size>
                 <origin>0 0</origin>
                 <text>Released:</text>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize1}</fontSize>
-                <horizontalAlignment>left</horizontalAlignment>
+                <fontSize>${gamerel}</fontSize>
+                <horizontalAlignment>right</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
             </text>
@@ -519,7 +504,7 @@
                 <metadata>releasedate</metadata>
                 <format>%Y</format>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize1}</fontSize>
+                <fontSize>${gamerel}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
@@ -530,7 +515,7 @@
                 <origin>0 0</origin>
                 <metadata>description</metadata>
                 <fontPath>${mainFont}</fontPath>
-                <fontSize>${fontSize1}</fontSize>
+                <fontSize>${gamemeta}</fontSize>
                 <horizontalAlignment>left</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
