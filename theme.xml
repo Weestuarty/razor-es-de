@@ -3,10 +3,10 @@
     <include>./navigationsounds.xml</include>
     <include>./colors.xml</include>
     <include>./font.xml</include>
+    <include>./languages.xml</include>
     <include>./system/metadata/_default.xml</include>
-    <include>./system/custom/metadata/_default.xml</include>
-    <include>./system/custom/metadata/${system.theme}.xml</include>
     <include>./system/metadata/${system.theme}.xml</include>
+    <include>./system/custom/metadata/${system.theme}.xml</include>
 
     <variables>
         <syslogo>./system/logos/system-logo-white/${system.theme}.svg</syslogo>
@@ -75,7 +75,7 @@
                 <pos>0.775 0.34</pos>
                 <size>0.4 0.1</size>
                 <rotation>90</rotation>
-                <text>System Select</text>
+                <text>${langLabelSystemSelect}</text>
                 <fontPath>${mainFont}</fontPath>
                 <fontSize>${sysselect}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
@@ -489,7 +489,7 @@
                 <pos>0.06 0.8575</pos>
                 <size>0.1 0.03</size>
                 <origin>0 0</origin>
-                <text>Released:</text>
+                <text>${langLabelReleasedate}:</text>
                 <fontPath>${mainFont}</fontPath>
                 <fontSize>${gamerel}</fontSize>
                 <horizontalAlignment>right</horizontalAlignment>
@@ -498,14 +498,14 @@
             </text>
             <datetime name="md_rel">
                 <pos>0.16 0.8575</pos>
-                <size>0.1 0.03</size>
+                <size>0.045 0.03</size>
                 <origin>0 0</origin>
                 <defaultValue>:space:</defaultValue>
                 <metadata>releasedate</metadata>
                 <format>%Y</format>
                 <fontPath>${mainFont}</fontPath>
                 <fontSize>${gamerel}</fontSize>
-                <horizontalAlignment>left</horizontalAlignment>
+                <horizontalAlignment>right</horizontalAlignment>
                 <color>${mainColor}</color>
                 <letterCase>capitalize</letterCase>
             </datetime>
